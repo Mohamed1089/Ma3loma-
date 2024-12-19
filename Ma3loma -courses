@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ma3loma|معلومة</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Header with logo and site name -->
+<header>
+  <div class="header-container">
+    <img src="logo.png" alt="شعار الموقع" class="logo">
+    <h1>ma3loma|معلومة</h1>
+  </div>
+  <h2>تعلم المحاسبة بسهولة-خطوة بخطوة</h2>
+</header>
+
+<!-- Course description -->
+<section id="course-description">
+  <h3>وصف الكورس</h3>
+  <p>
+    هذا الكورس يقدم لك أساسيات المحاسبة خطوة بخطوة، بدءًا من تعريف المحاسبة ونظم المعلومات المحاسبية إلى إعداد القوائم المالية وتطبيقات عملية. سيتم شرح كل موضوع بطريقة بسيطة وواضحة مع أمثلة عملية لجعل التعلم أسهل وأسرع.
+  </p>
+</section>
+
+<!-- Course contents -->
+<section id="course-contents">
+  <h3>محتويات الكورس</h3>
+  <ul>
+    <li>تعريف المحاسبة</li>
+    <li>نظم المعلومات المحاسبية</li>
+    <li>المستفيدين من المعلومات المحاسبية</li>
+    <li>المبادئ والفروض المحاسبية</li>
+    <li>المعادلة المحاسبية (الميزانية العمومية)</li>
+    <li>تطبيقات عملية أثر العمليات المالية على المعادلة المحاسبية</li>
+    <li>القيود اليومية</li>
+    <li>طبيعة الحسابات</li>
+    <li>قاعدة المديونية والدائنية</li>
+    <li>تطبيقات عملية على قيود اليومية</li>
+    <li>الدورة المحاسبية</li>
+    <li>التسجيل في دفتر اليومية</li>
+    <li>الترحيل إلى دفتر الأستاذ</li>
+    <li>إعداد ميزان المراجعة</li>
+    <li>إعداد القوائم المالية</li>
+    <li>الجرد الدوري والجرد المستمر</li>
+    <li>التسويات الجردية</li>
+    <li>إهلاك الأصول الثابتة وطرق الإهلاك</li>
+  </ul>
+</section>
+
+<!-- About the instructor -->
+<section id="about-instructor">
+  <h3>نبذة عن المدرب</h3>
+  <p>
+    أنا محمد وجيه، شرحت للعديد من الأشخاص أنواع المحاسبة والطلاب حصلوا على تقدير امتياز بفضل الأسلوب البسيط والفعال الذي أتبعه. هدفي هو جعل المحاسبة سهلة الفهم لأي شخص بغض النظر عن خلفيته.
+  </p>
+</section>
+
+<!-- How to access the course -->
+<section id="course-access">
+  <h3>الوصول إلى الكورس</h3>
+  <p>للحصول على الكورس، يرجى التواصل معنا عبر الواتساب:</p>
+  <a href="https://wa.me/01157207526" target="_blank">تواصل مع الواتساب</a>
+  <p>المبلغ المطلوب: ٢٠٠ جنيه بعد الخصم ٣٠٪. مع إمكانية التغيير في أي وقت.</p>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>حقوق النشر © 2024 جميع الحقوق محفوظة</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>كورس المحاسبة</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Course title and introduction -->
+<header>
+  <h1>كورس المحاسبة</h1>
+  <p>أول فيديو مجاني لجذب العملاء. للوصول إلى باقي المحتوى، يرجى الدفع أولاً.</p>
+</header>
+
+<!-- Video section -->
+<section id="video-section">
+  <h3>الفيديو الأول: مقدمة عن المحاسبة</h3>
+  <video controls>
+    <source src="video1.mp4" type="video/mp4">
+    متصفحك لا يدعم تشغيل الفيديو.
+  </video>
+  <p>هذا الفيديو مجاني للاطلاع على فكرة الكورس. للوصول إلى باقي الفيديوهات، يرجى الدفع أولاً.</p>
+</section>
+
+<!-- Video links and file uploads -->
+<section id="additional-content">
+  <h3>محتوى إضافي</h3>
+  <ul>
+    <li><a href="file1.pdf" target="_blank">ملف PDF 1 - مقدمة في المحاسبة</a></li>
+    <li><a href="file2.pdf" target="_blank">ملف PDF 2 - قيود اليومية</a></li>
+  </ul>
+</section>
+
+<!-- Password protection -->
+<form id="password-form">
+  <h3>دخول المحتوى المحمي</h3>
+  <input type="password" id="password" placeholder="أدخل كلمة السر">
+  <button type="button" onclick="checkPassword()">دخول</button>
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
+/* تعيين نمط الخط */
+body {
+  font-family: Arial, sans-serif;
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header h2 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+header .logo {
+  width: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* Course section */
+section {
+  padding: 20px;
+  margin: 10px;
+}
+
+h3 {
+  color: #004080;
+}
+
+#course-contents ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#course-contents li {
+  margin: 5px 0;
+}
+
+/* Links */
+a {
+  color: #004080;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Password form */
+#password-form {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+#password-form input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+#password-form button {
+  padding: 10px;
+  background-color: #004080;
+  color: white;
+  border: none;
+}
+// Function to check the password
+function checkPassword() {
+  var password = document.getElementById("password").value;
+  if (password === "MemoTrezegeat311@@##$$+") {
+    window.location.href = "course-content.html"; // Redirect to the full course content
+  } else {
+    alert("كلمة السر غير صحيحة. حاول مرة أخرى.");
+  }
+}
